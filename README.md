@@ -1,2 +1,5 @@
-# .github
-Perfil público de Orionis Framework: descubre el framework, explora su ecosistema y conecta con su documentación y comunidad.
+# Orionis Framework · Perfil de la organización
+
+Este repositorio contiene la presentación pública de Orionis Framework en GitHub.
+
+El contenido que aparece en la organización se mantiene en [profile/README.md](profile/README.md).
