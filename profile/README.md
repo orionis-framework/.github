@@ -6,184 +6,184 @@
 
 <h1 align="center">Orionis Framework</h1>
 
-<h3 align="center">Menos ensamblar. Más construir.</h3>
+<h3 align="center">Less wiring. More building.</h3>
 
 <p align="center">
-  Python asíncrono para conectar cada parte de tu aplicación.
+  Async Python that connects every part of your application.
   <br />
-  <strong>HTTP &middot; Tiempo real &middot; Datos &middot; Automatización &middot; MCP</strong>
+  <strong>HTTP &middot; Real-time &middot; Data &middot; Automation &middot; MCP</strong>
 </p>
 
 <p align="center">
   <a href="https://pypi.org/project/orionis/">
-    <img src="https://img.shields.io/pypi/v/orionis?style=for-the-badge&amp;color=007f8b" alt="Versión de Orionis en PyPI" />
+    <img src="https://img.shields.io/pypi/v/orionis?style=for-the-badge&amp;color=007f8b" alt="Orionis version on PyPI" />
   </a>
   <a href="https://www.python.org/downloads/">
-    <img src="https://img.shields.io/badge/Python-3.14%2B-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python 3.14 o superior" />
+    <img src="https://img.shields.io/badge/Python-3.14%2B-3776AB?style=for-the-badge&amp;logo=python&amp;logoColor=white" alt="Python 3.14 or later" />
   </a>
   <a href="https://github.com/orionis-framework/framework">
-    <img src="https://img.shields.io/badge/HTTP-ASGI%20%7C%20RSGI-7C3AED?style=for-the-badge" alt="HTTP con ASGI y RSGI" />
+    <img src="https://img.shields.io/badge/HTTP-ASGI%20%7C%20RSGI-7C3AED?style=for-the-badge" alt="HTTP with ASGI and RSGI" />
   </a>
   <a href="https://github.com/orionis-framework/framework/blob/1.x/LICENCE">
-    <img src="https://img.shields.io/badge/Licencia_del_n%C3%BAcleo-MIT-16803D?style=for-the-badge" alt="Núcleo bajo licencia MIT" />
+    <img src="https://img.shields.io/badge/Core_License-MIT-16803D?style=for-the-badge" alt="MIT-licensed core" />
   </a>
 </p>
 
 <p align="center">
-  <a href="https://docs.orionis-framework.com/"><strong>Documentación</strong></a>
+  <a href="https://docs.orionis-framework.com/"><strong>Documentation</strong></a>
   &nbsp;&bull;&nbsp;
-  <a href="https://orionis-framework.com/"><strong>Sitio web</strong></a>
+  <a href="https://orionis-framework.com/"><strong>Website</strong></a>
   &nbsp;&bull;&nbsp;
-  <a href="https://github.com/orionis-framework/framework"><strong>Código fuente</strong></a>
+  <a href="https://github.com/orionis-framework/framework"><strong>Source code</strong></a>
   &nbsp;&bull;&nbsp;
-  <a href="https://github.com/orgs/orionis-framework/discussions"><strong>Comunidad</strong></a>
+  <a href="https://github.com/orgs/orionis-framework/discussions"><strong>Community</strong></a>
 </p>
 
 ---
 
-## ✨ Tu aplicación es más que sus endpoints
+## ✨ Your application is more than its endpoints
 
-Una aplicación no termina en una ruta HTTP. También necesita datos, identidad,
-archivos, trabajo en segundo plano y una forma clara de organizar su código.
+An application needs more than an HTTP route. It also needs data, identity,
+file storage, background jobs, and a clear way to organize its code.
 
-**Orionis reúne esas piezas en un framework Python diseñado alrededor de
-`async/await`, contratos explícitos y servicios integrados.**
+**Orionis brings these pieces together in a Python framework built around
+`async/await`, explicit contracts, and integrated services.**
 
-Empieza por una API, una aplicación web o un servidor MCP. Comparte una misma
-base de servicios y extiéndela con las piezas que necesites.
+Start with an API, a web application, or an MCP server. Build on a shared
+foundation of services and extend it with the components you need.
 
-> **Tu lógica de negocio en el centro. Una arquitectura que conecta el resto.**
+> **Your business logic at the center. An architecture that connects everything else.**
 
-## 🧩 Una base común para cada capa
+## 🧩 A shared foundation for every layer
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🌐 HTTP y tiempo real</h3>
-      <p>Rutas, controladores y middleware con soporte ASGI y RSGI.
-      WebSockets y eventos del servidor para experiencias conectadas.</p>
+      <h3>🌐 HTTP and real-time communication</h3>
+      <p>Routes, controllers, and middleware with ASGI and RSGI support.
+      WebSockets and server-sent events for connected experiences.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🏗️ Arquitectura extensible</h3>
-      <p>Inyección de dependencias, servicios por contexto,
-      proveedores y facades para separar responsabilidades.</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🗃️ Datos con una API expresiva</h3>
-      <p>ORM asíncrono, modelos, relaciones y consultas fluidas.
-      Migraciones, transacciones y herramientas para preparar datos.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔐 Identidad y permisos</h3>
-      <p>Autenticación con sesiones y tokens de API.
-      Roles, permisos y políticas para definir quién puede hacer qué.</p>
+      <h3>🏗️ Extensible architecture</h3>
+      <p>Dependency injection, context-scoped services,
+      service providers, and facades for a clear separation of concerns.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>⚙️ Trabajo fuera de la petición</h3>
-      <p>Colas con base de datos o Redis, procesamiento con
-      reintentos y programación de comandos recurrentes.</p>
+      <h3>🗃️ An expressive data API</h3>
+      <p>An async ORM with models, relationships, and fluent queries.
+      Migrations, transactions, and data preparation tools.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>☁️ Archivos, aquí o en la nube</h3>
-      <p>Una API de almacenamiento para archivos locales,
-      Amazon S3, Azure Blob Storage y Google Cloud Storage.</p>
+      <h3>🔐 Identity and access control</h3>
+      <p>Authentication with sessions and API tokens.
+      Roles, permissions, and policies to define who can do what.</p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 Servidores MCP</h3>
-      <p>Expón herramientas, recursos y prompts a clientes de IA
-      mediante Model Context Protocol, con HTTP y STDIO.</p>
+      <h3>⚙️ Background processing</h3>
+      <p>Database- or Redis-backed queues, job processing with
+      retries, and recurring command scheduling.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🛠️ Herramientas para desarrollar</h3>
-      <p>Reactor CLI, generadores de código y pruebas asíncronas
-      con acceso a los servicios de tu aplicación.</p>
+      <h3>☁️ Local and cloud storage</h3>
+      <p>A single storage API for local files,
+      Amazon S3, Azure Blob Storage, and Google Cloud Storage.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🤖 MCP servers</h3>
+      <p>Expose tools, resources, and prompts to AI clients
+      using the Model Context Protocol over HTTP and STDIO.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛠️ Developer tools</h3>
+      <p>Reactor CLI, code generators, and async testing
+      with access to your application's services.</p>
     </td>
   </tr>
 </table>
 
-**Y las piezas del día a día:** caché, correo, validación tipada, sesiones,
-plantillas Jinja2, traducciones, registros y manejo de excepciones.
+**And the everyday essentials:** caching, email, typed validation, sessions,
+Jinja2 templates, translations, logging, and exception handling.
 
-Consulta en la documentación la configuración y las dependencias opcionales
-de cada integración.
+See the documentation for each integration's configuration and optional
+dependencies.
 
-## 🚀 De la idea a tu primera aplicación
+## 🚀 From idea to your first application
 
-Prepara [uv](https://docs.astral.sh/uv/getting-started/installation/) y
-[Git](https://git-scm.com/downloads). Orionis utiliza **Python 3.14 o superior**.
+Install [uv](https://docs.astral.sh/uv/getting-started/installation/) and
+[Git](https://git-scm.com/downloads). Orionis requires **Python 3.14 or later**.
 
-Para crear una API con la plantilla `slim_api`:
+To create an API using the `slim_api` template:
 
 ```bash
-uvx --python 3.14 --from orionis-installer orionis new mi-api --stack slim_api
+uvx --python 3.14 --from orionis-installer orionis new my-api --stack slim_api
 ```
 
-Completa el asistente y, cuando termine correctamente, inicia el servidor
-de desarrollo desde la carpeta creada:
+Complete the setup wizard. Once it finishes successfully, start the development
+server from the new project directory:
 
 ```bash
-cd mi-api
+cd my-api
 uv run python -B reactor serve
 ```
 
-Abre la dirección que muestre la consola.
+Open the URL shown in your terminal.
 
-**¿Otro tipo de aplicación?** Ejecuta el instalador sin `--stack` para elegir
-una de las plantillas disponibles.
+**Building something else?** Run the installer without `--stack` to choose
+from the available templates.
 
-[Consulta la guía de instalación →](https://docs.orionis-framework.com/en/getting-started/installation/)
+[Read the installation guide →](https://docs.orionis-framework.com/en/getting-started/installation/)
 
-## 🪐 Explora el ecosistema
+## 🪐 Explore the ecosystem
 
-| Proyecto | Qué encontrarás |
+| Project | What you'll find |
 | :--- | :--- |
-| [**Framework**](https://github.com/orionis-framework/framework) | El núcleo de Orionis y sus componentes. |
-| [**Skeleton**](https://github.com/orionis-framework/skeleton) | Las bases de proyecto para crear aplicaciones. |
-| [**Installer**](https://github.com/orionis-framework/installer) | El asistente para preparar una nueva aplicación. |
-| [**Docs**](https://github.com/orionis-framework/docs) | Las guías y el sitio de documentación. |
-| [**Web**](https://github.com/orionis-framework/web) | El sitio público del proyecto. |
+| [**Framework**](https://github.com/orionis-framework/framework) | The Orionis core and its components. |
+| [**Skeleton**](https://github.com/orionis-framework/skeleton) | Starter templates for new applications. |
+| [**Installer**](https://github.com/orionis-framework/installer) | The setup wizard for new applications. |
+| [**Docs**](https://github.com/orionis-framework/docs) | Guides and the documentation site. |
+| [**Web**](https://github.com/orionis-framework/web) | The project's public website. |
 
-[Ver todos los repositorios →](https://github.com/orgs/orionis-framework/repositories)
+[Browse all repositories →](https://github.com/orgs/orionis-framework/repositories)
 
-## 🤝 La siguiente mejora puede empezar contigo
+## 🤝 The next improvement could start with you
 
-Prueba Orionis, comparte lo que construyes y ayúdanos a mejorar la experiencia
-de desarrollar con Python.
+Try Orionis, share what you build, and help us improve the experience
+of building with Python.
 
-**¿Encontraste un problema?** Abre un
+**Found a problem?** Open an
 [issue](https://github.com/orionis-framework/framework/issues)
-con los pasos para reproducirlo y las versiones utilizadas.
+with steps to reproduce it and the versions you used.
 
-**¿Tienes una pregunta o una propuesta?** Conversemos en
+**Have a question or an idea?** Join the conversation in
 [Discussions](https://github.com/orgs/orionis-framework/discussions).
 
-Las contribuciones de código, documentación, ejemplos y pruebas son bienvenidas.
-Para cambios amplios, comparte primero la propuesta.
+We welcome contributions to code, documentation, examples, and tests.
+For larger changes, please share your proposal first.
 
 ---
 
 <p align="center">
-  <strong>Una idea merece convertirse en una aplicación.</strong>
+  <strong>Your idea deserves to become an application.</strong>
   <br />
-  Construye la tuya con Orionis.
+  Build it with Orionis.
 </p>
 
 <p align="center">
-  <a href="https://github.com/orionis-framework/framework">⭐ Apoya el proyecto con una estrella</a>
+  <a href="https://github.com/orionis-framework/framework">⭐ Support the project with a star</a>
   &nbsp;&bull;&nbsp;
-  <a href="https://github.com/sponsors/rmunate">💜 Patrocina su desarrollo</a>
+  <a href="https://github.com/sponsors/rmunate">💜 Sponsor its development</a>
 </p>
 
 <p align="center">
   <sub>
-    El núcleo de Orionis se distribuye bajo licencia
-    <a href="https://github.com/orionis-framework/framework/blob/1.x/LICENCE">MIT</a>.
-    Consulta la licencia de cada repositorio para sus propios archivos.
+    The Orionis core is distributed under the
+    <a href="https://github.com/orionis-framework/framework/blob/1.x/LICENCE">MIT</a> license.
+    Check each repository's license for the terms that apply to its files.
   </sub>
 </p>

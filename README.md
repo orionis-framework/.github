@@ -1,5 +1,5 @@
-# Orionis Framework · Perfil de la organización
+# Orionis Framework · Organization Profile
 
-Este repositorio contiene la presentación pública de Orionis Framework en GitHub.
+This repository contains the public GitHub profile for Orionis Framework.
 
-El contenido que aparece en la organización se mantiene en [profile/README.md](profile/README.md).
+The content displayed on the organization page is maintained in [profile/README.md](profile/README.md).
